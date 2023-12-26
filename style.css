@@ -13,7 +13,7 @@
 }
 .logos{
     width: 160px;
-    
+    margin: 15px;
 }
 .menu{
     display: flex;
@@ -51,12 +51,12 @@ font-weight: bold;
 }
 .description{
     font-size: 22px;
-    margin-top: 10px;
+    margin: 10px;
 }
-.banner-btn{
+.btn{
     border: none;
-    padding: 10px;
-    margin-top: 10px;
+    padding:15px 25px;
+    margin-top: 15px;
     border-radius: 8px;
     color: white;
     background-color: red;
@@ -67,9 +67,65 @@ font-weight: bold;
     cursor: pointer;
 }
     /* end banner  */
+    .about-titel{
+      text-align: center;
+      font-size: 60px;
+      margin-bottom: 40px;
+    }
+    .about{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 .about-pic{
     height: 400px;
 }
-.about-text{
-    
+.main>h1{
+    font-size: x-large;
+}
+
+/* service section*/
+.service{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 50px;
+}
+.servicess{
+    background-color: black;
+    height: 300px;
+    width: 270px;
+    text-align: center;
+    color: white;
+    padding: 70px 40px;
+
+ 
+}
+.servic-img{
+    width: 80px;
+    margin-bottom: 15px;
+}
+.detail{
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+}
+.detail:hover{
+    cursor:pointer ;
+    color: red;
+}
+/* end main section  */
+.main-footer{
+    background-color: black;
+    color: white;
+   height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
